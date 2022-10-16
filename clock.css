@@ -26,7 +26,8 @@ body{
     inset 0 0 30px rgba(0,0,0,0.4);
 }
 img{
-    position: relative;
+    position: absolute;
+    
 }
 .hand{
     position: absolute;
@@ -36,11 +37,14 @@ img{
     right: 0;
     border-radius: 5px;
     transform-origin: bottom;
+    justify-content: center;
+    
 }
 .hour{
     height: 60px;
     width: 10px;
     top: 100px;
+    bottom: 10px;
 }
 .minute{
     height: 80px;
